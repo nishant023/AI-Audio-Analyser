@@ -1,6 +1,9 @@
 import yt_dlp
 from pydub import AudioSegment
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DOWNLOAD_DIR = 'downloades'
 os.makedirs(DOWNLOAD_DIR,exist_ok = True)
